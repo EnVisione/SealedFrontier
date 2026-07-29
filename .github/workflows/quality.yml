@@ -16,8 +16,8 @@ jobs:
     permissions:
       actions: read
       contents: read
-    uses: MCEnvision/.github/.github/workflows/quality.yml@ec831efc8265543929ef11c5569d07d5ca095b56
+    uses: MCEnvision/.github/.github/workflows/quality.yml@e6c466f88edb57af854f597e1ce3788881d49b21
     with:
-      shared-ref: "ec831efc8265543929ef11c5569d07d5ca095b56"
+      shared-ref: "e6c466f88edb57af854f597e1ce3788881d49b21"
       native-security: true
       enforce-docs-layout: false
